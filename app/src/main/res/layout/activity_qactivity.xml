@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/questionText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pytanie: "
+        android:textSize="24sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnA"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="A: "
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5349" />
+
+    <Button
+        android:id="@+id/btnB"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="B: "
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5349"/>
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:text="C: "
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5349"/>
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wynik: "
+        android:textSize="20sp"
+        android:layout_margin="10dp"/>
+
+    <Button
+        android:id="@+id/btnReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resetuj Quiz"
+        android:layout_margin="10dp"
+        android:backgroundTint="#FF5349"/>
+
+
+</LinearLayout>
