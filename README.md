@@ -34,7 +34,3 @@ Aplikacja składa się z:
 
 ### QActivity
 ![QActivity](QActivity.png)
-
-
-### Wynik końcowy
-(tutaj wstaw screenshot końcowego wyniku)
